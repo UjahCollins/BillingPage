@@ -1,0 +1,273 @@
+.App2{
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer{
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius:5px;
+}
+.sec1{
+  width: 35%;
+  height: 100%;
+  border-radius: 5px 0px 0px 5px;
+  background: linear-gradient(117deg, rgba(42,37,113,1) 30%, rgba(138,37,104,1) 44%, rgba(104,40,113,1) 53%, rgba(49,67,117,1) 62%, rgba(62,61,113,1) 71%, rgba(80,54,36,1) 79%, rgba(47,54,108,1) 84%);}
+.sec2{
+  width: 65%;
+  height: 100%;
+}
+.content{
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+.contentWrapper{
+  width: 50%;
+  height: 60%;
+  /* background-color: white; */
+  position: absolute;
+  top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* background-color: silver; */
+}
+.label{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.cardDetails{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+}
+.form1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardFrontHolder{
+  width: 100%;
+  height: 45%;
+  /* background-color: blueviolet; */
+  display: flex;
+}
+.cardFront{
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(117deg, rgba(65,53,238,1) 30%, rgba(226,35,162,1) 44%, rgba(186,67,204,1) 53%, rgba(91,123,215,1) 62%, rgba(109,107,176,1) 71%, rgba(149,106,77,1) 79%, rgba(67,90,255,1) 84%);
+
+  display: flex;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.circleHolder{
+  width: 80%;
+  height: 40%;
+  /* background-color: orange; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* padding-left: 20px; */
+  /* justify-content: center; */
+}
+.circle1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+.circle2{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border:2px solid white;
+}
+.numHolder{
+  width: 80%;
+  height: 20%;
+  font-size: 23px;
+  font-weight: 500;
+}
+.otherDetails{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.cardBackHolder{
+  width: 100%;
+  height: 45%;
+  /* background-color: rgb(158, 115, 199); */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.odName{
+  font-size: 12px;
+}
+
+.cardBack{
+  width: 80%;
+  height: 100%;
+  background-color: #e6e5ea;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.blackBox{
+  margin-top: 20px;
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+
+.secondBox{
+  width: 80%;
+  height: 20%;
+  background-color: #adb6bf;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: white;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 5px;
+  
+}
+
+.details1{
+  width: 80%;
+  height: 20%;
+}
+.details1 label{
+  width: 80%;
+  height: 10%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.details1 input{
+  width: 100%;
+  height: 50%;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.details3{
+  width: 80%;
+  height: 20%;
+  display: flex;
+}
+.date{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.date label{
+  width: 100%;
+  height: 20%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.MMYYHolder{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.date input{
+  width: 45%;
+  height: 50%;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.crv{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.crv input{
+  width: 45%;
+  height: 35%;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.crv label{
+  width: 100%;
+  height: 20%;
+  font-size: 10px;
+  font-weight: bold;
+}
+.button{
+  width: 80%;
+  height: 10%;
+  background-color: #220930;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.odName1 {
+  display: flex;
+  font-size: 12px;
+  gap: 3px;
+}
+p{
+  color: red;
+  font-size: 8px;
+}
